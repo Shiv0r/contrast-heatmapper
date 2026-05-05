@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@crawlee/puppeteer": "^3.10.1",
+    "html-minifier-terser": "^7.2.0",
     "next": "^16.2.4",
     "puppeteer": "^24.42.0",
     "react": "19.2.4",
@@ -17,6 +18,7 @@
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
+    "@types/html-minifier-terser": "^7.0.2",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
