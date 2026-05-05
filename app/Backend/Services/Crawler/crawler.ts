@@ -34,6 +34,7 @@ class Crawler {
   }
 
   private async extractCSS(html: string): Promise<void> {}
+  private async extractMedia(html: string): Promise<void> {}
 }
 
 const crawler = new Crawler();
