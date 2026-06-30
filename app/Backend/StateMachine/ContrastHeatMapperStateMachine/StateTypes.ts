@@ -1,10 +1,12 @@
 enum StateTypes {
+  IDLE,
   CRAWLING,
   DIFFUSE_RDY,
   COLOR_ID_RDY,
   TEXTURES_UPLOADED,
   SHADER_RUNNING,
   OUTPUT_RDY,
+  CANCELED,
   ERROR,
 }
 export default StateTypes;
